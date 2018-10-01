@@ -4,7 +4,7 @@ rules:
   branches:
     integration:
       merge_strategy:
-      method: rebase
+        method: rebase
         rebase_fallback: none
       protection:
         required_status_checks:
