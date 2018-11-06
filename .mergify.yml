@@ -6,6 +6,8 @@ pull_request_rules:
         - Merge Now
   conditions:
     - author=metworkbot
+    - merged=false
+    - closed=false
 
 - name: integration branch
   actions:
